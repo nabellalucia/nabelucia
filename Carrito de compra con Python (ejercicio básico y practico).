@@ -1,0 +1,30 @@
+def product_list ():
+    pass
+
+
+
+menu = """"""
+Bienvenido a mi tienda Apple 
+Tenemos nuevos productos para ti:
+- Iphone
+- Apple Watch
+- MacBook Pro
+- Airpods
+- Apple Pencil 
+- Ipad mini
+- Beast 
+
+Despliega el menu de opciones: """"""
+
+print(menu)
+
+
+product_list = [
+    ("Iphone",5000),
+    ("Apple Watch",3000),
+    ("Macbook Pro",12000),
+    ("Airpods",1500),
+    ("Apple Pencil",680),
+    ("Ipad mini",3200),
+    ("Beats",1800),
+]
