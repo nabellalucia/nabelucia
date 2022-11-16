@@ -1,0 +1,13 @@
+from re import I
+import pyautogui as pt
+import time 
+
+limit = input ('Cantidad de mensajes: ')
+message = input ("Mesaje: ")
+
+time.sleep(3)
+
+while I< int(limit):
+    pt.typewrite(message)
+    pt.press("enter")
+    I += 1
