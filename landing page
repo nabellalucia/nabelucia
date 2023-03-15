@@ -1,0 +1,32 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Componente principal de la landing page
+function LandingPage() {
+  return (
+    <div>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <h1>Título principal</h1>
+          <p>Descripción breve de la landing page</p>
+          <a href="#" class="cta">Llamado a la acción</a>
+        </section>
+      </main>
+      <footer>
+        <p>Derechos reservados &copy; 2023</p>
+      </footer>
+    </div>
+  );
+}
+
+ReactDOM.render(<LandingPage />, document.getElementById('root'));
